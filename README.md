@@ -100,8 +100,3 @@ git commit
 git commit -m "feat :: 우주선 객체
 - ~~ 구체적인 설명
 "
-<<<<<<< HEAD
-```
-=======
-```
->>>>>>> 6750c934b1aaa336c19e9ec2c7b97a954fc2d617
