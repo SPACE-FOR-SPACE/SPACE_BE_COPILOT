@@ -63,7 +63,7 @@ git commit
   │         │
   │         └─⫸ 현재, 명령형으로 작성. 마침표 금지.
   │
-  └─⫸ 커밋 유형: feat|fix|perf|refactor|test
+  └─⫸ 커밋 유형: feat|fix|perf|refactor
 ```
 
 #### 유형
