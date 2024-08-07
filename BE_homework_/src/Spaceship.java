@@ -1,13 +1,14 @@
 import java.util.ArrayList;
 
+
 public class Spaceship {
     private String name; //탐사선의 이름
-    private final boolean isManned; // 유인/무인
+    private final SpaceshipType spaceshipType;
     private ArrayList<Crew> crew; //탐사대원
 
-    public Spaceship(String name, boolean isManned){
+    public Spaceship(String name, SpaceshipType spaceshipType){
         this.name=name;
-        this.isManned=isManned;
+        this.spaceshipType=spaceshipType;
         this.crew=new ArrayList<>();
     }
 
@@ -16,7 +17,7 @@ public class Spaceship {
     }
 
     public void joinCrew(Crew crew){
-        if(this.isManned){
+        if(this.spaceshipType.isManned()){
             this.crew.add(crew);
         } else {
             System.out.println("무인 탐사선에 탑승할 수 없습니다.\n");

@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Spaceship ship1 = new Spaceship("bssm", true);
-        Spaceship ship2 = new Spaceship("qwerty", false);
+        Spaceship ship1 = new Spaceship("bssm", SpaceshipType.MANNED);
+        Spaceship ship2 = new Spaceship("qwerty", SpaceshipType.UNMANNED);
         Crew crew1 = new Crew("sseunyang");
         Crew crew2 = new Crew("racoon");
         ship1.joinCrew(crew1);
